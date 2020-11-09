@@ -175,5 +175,10 @@ namespace entiform
                 ca.update(li);
             }
         }
+
+        private void AllCarsTable_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+
+        }
     }
 }

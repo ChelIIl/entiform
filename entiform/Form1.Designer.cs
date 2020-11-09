@@ -50,6 +50,7 @@
             this.AllCarsTable.Name = "AllCarsTable";
             this.AllCarsTable.Size = new System.Drawing.Size(644, 150);
             this.AllCarsTable.TabIndex = 0;
+            this.AllCarsTable.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.AllCarsTable_CellMouseDoubleClick);
             // 
             // search_button
             // 
